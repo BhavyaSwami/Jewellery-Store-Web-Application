@@ -1,0 +1,45 @@
+.nav-link-underline {
+  text-decoration: underline !important;
+  color: #b97a56 !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.nav-link-underline:hover {
+  color: #7c4a2c !important;
+}
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8f9fa 60%, #ffe4e1 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.jewellery-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gemzi-title {
+  text-align: center;
+  background: #e3b7a0;
+  color: #fff;
+  padding: 1.5rem 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
